@@ -52,6 +52,26 @@ the values differ per install. The setup fields contain no key.
 - `list_tasks` without `boardId` searches titles and notes across all boards.
   Follow `nextCursor` until it is null.
 
+## Edit ticket text
+
+When the user asks to edit, rewrite, or replace ticket text, apply that request
+immediately, including follow-up revisions. The request itself authorizes the edit.
+
+1. Read the current ticket with `get_task`. Use its returned UUID and latest revision.
+2. Call `update_task` with only the requested fields, that revision as
+   `expectedRevision`, and a fresh `requestKey`. Replace the requested field in
+   full when asked for a rewrite or replacement. For a targeted edit, preserve
+   the rest of the field.
+3. On a revision conflict, read again and apply the requested edit to the
+   current version. Use a fresh key for the revised write. Reuse a key only
+   for an identical retry. Read the ticket back with `get_task` and verify
+   the saved fields before reporting the result.
+
+Use the ticket's ID when supplied. Ask which ticket only if the request leaves
+several plausible matches. Invoke the start-work workflow only when asked to
+work the ticket. Use the separate Archive, Trash, and permanent deletion
+workflows for those actions.
+
 ## 4. Working a ticket
 
 When the user says "start on a ticket" or similar:
@@ -65,7 +85,7 @@ When the user says "start on a ticket" or similar:
    blocker hit, decision made) add a progress entry. If the server offers
    `add_task_comment` / `report_agent_progress`, use them. Otherwise append to
    `notes`: read the current notes, then write the old text plus a new line like
-   `[2026-11-10 3:42 PM] PR opened: <url>`. Never trim existing notes.
+   `[2026-11-10 3:42 PM] PR opened: <url>`. Preserve existing notes when logging progress.
 4. **Finish.** When the definition of done is met, add a closing entry with the
    result and links, then move it to `Done`. If the user still needs to review
    something, start that entry with `READY FOR REVIEW:` and say exactly what to
