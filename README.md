@@ -9,6 +9,7 @@ available tools, and safe day-to-day use.
 | [`jotley-mcp`](skills/jotley-mcp/SKILL.md) | [Jotley](https://jotley.ai) | Find, read, edit and organize voice notes and transcripts |
 | [`inkspring-mcp`](skills/inkspring-mcp/SKILL.md) | [Inkspring](https://inkspring.ai) | Write posts, work post ideas, schedule, and draft newsletters |
 | [`opentalon-mcp`](skills/opentalon-mcp/SKILL.md) | OpenTalon (coming soon) | Work tickets on a local Kanban board from start to Done |
+| [`glimmer-mcp`](skills/glimmer-mcp/SKILL.md) | [Glimmer](https://www.glimmertoday.com/mcp) | Read daily coaching for a dashboard, save a practice and sync completion |
 
 PulseCanvas Studio's MCP is in development; its skill will be added when it ships.
 Current MCP availability and full setup guides: https://protomota.com/mcp
