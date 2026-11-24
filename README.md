@@ -1,6 +1,6 @@
 # Protomota skills
 
-[skills.protomota.com](https://skills.protomota.com) is the public address for this collection. The five skill folders below are maintained here. The reference catalog lists third-party tools separately and credits the original project for adaptations.
+[skills.protomota.com](https://skills.protomota.com) is the public address for this collection. The six skill folders below are maintained here. The reference catalog lists third-party tools separately and credits the original project for adaptations.
 
 ## Skills you can install from this repo
 
@@ -11,6 +11,7 @@
 | [InkSpring MCP](skills/inkspring-mcp/SKILL.md) | Work with ideas, posts, newsletters and scheduled drafts. |
 | [Jotley MCP](skills/jotley-mcp/SKILL.md) | Find, read and organize voice notes and transcripts. |
 | [OpenTalon MCP](skills/opentalon-mcp/SKILL.md) | Manage tasks through a local agent connection. |
+| [Textley MCP](skills/textley-mcp/SKILL.md) | Find, read, edit and save files in Textley vaults and tabs. |
 
 The Mac apps host their own MCP servers. [App connection guides](https://protomota.com/mcp).
 
