@@ -7,6 +7,8 @@ description: Convene Claude, Codex and Gemini for independent recommendations, a
 
 Use the current session as coordinator. The other two providers participate through the user's authorized connections. The skill supplies the review procedure. Each participant needs its own working connection.
 
+For each provider, use the strongest model the connected account exposes for the task and select **High** reasoning effort for both rounds. If High is part of the model ID, choose that variant. Check the current model options and verify the runtime model and effort. If the host is on a different configuration, use a fresh High session for its seat. Honor explicit overrides and report any seat that could not run as requested.
+
 1. Write the decision, scope, evidence, constraints and a practical test. Record your own initial position before seeing the other answers. Remove personal details, secrets and unrelated workspace information from the brief.
 2. Send the same brief independently to both peers. For example, if the host is Codex, ask Claude and Gemini. Use an available peer-consultation tool or a signed-in client the user authorized. Request a recommendation, its strongest objection and a test. Tell peers to answer in text, without tool use or further delegation.
 3. Record which providers actually answered and the model identifiers their runtimes report. Honor a requested model. If a connection fails, retry it once and report missing participation. When peer connections are unavailable, give the user the brief to take to those clients. Only attribute an answer to a provider that returned one.
