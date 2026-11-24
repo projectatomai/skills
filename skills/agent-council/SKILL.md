@@ -1,6 +1,8 @@
 ---
 name: agent-council
 description: Convene Claude, Codex and Gemini for independent recommendations, a challenge round and an evidence-checked decision. Use when the user requests Agent Council or a three-provider review, including drafting and revising copy.
+metadata:
+  version: "1.0.0"
 ---
 
 # Agent Council

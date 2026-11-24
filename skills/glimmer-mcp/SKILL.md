@@ -1,6 +1,8 @@
 ---
 name: glimmer-mcp
 description: Use Glimmer for Mac as a private life-coaching source for a daily dashboard or task list. Read today's glimmer, find an exercise, save a practice, or sync a completion when the user asks.
+metadata:
+  version: "1.0.0"
 ---
 
 # Glimmer MCP

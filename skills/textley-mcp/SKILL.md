@@ -1,6 +1,8 @@
 ---
 name: textley-mcp
 description: Connect Claude Code or Codex to Textley on Mac. Use when Textley tools are missing or when the user asks to find, read, edit, or save files in Textley, browse its vaults, or control its tabs and Markdown preview.
+metadata:
+  version: "1.0.0"
 ---
 
 # Textley MCP

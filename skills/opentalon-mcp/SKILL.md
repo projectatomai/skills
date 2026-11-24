@@ -1,6 +1,8 @@
 ---
 name: opentalon-mcp
 description: Install and use the OpenTalon MCP server, the local Kanban task manager for Mac, from Claude Code or Codex. Use when someone wants to connect OpenTalon to their agent, asks why OpenTalon tools are missing, or says "start on a ticket", "work the ticket", "make a ticket", "add a task to OpenTalon", "update the ticket" or names an OpenTalon board or task. Covers setup, the task workflow (find, In progress, progress notes, Done), duplicate checks and safe use of destructive actions.
+metadata:
+  version: "1.0.0"
 ---
 
 # OpenTalon MCP

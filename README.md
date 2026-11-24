@@ -30,6 +30,8 @@ ln -s "$PWD/skills/agent-council" ~/.agents/skills/agent-council
 
 Use the skill discovery directory supported by your client. If a destination already exists, inspect it before replacing it. Run `git pull --ff-only` in the checkout to update every link, then start a fresh agent session.
 
+Each skill records its version as `metadata.version` in the `SKILL.md` front matter. Raise it whenever the skill changes. The Protomota Mac apps bundle their skill and compare this version with the copy in each agent's skill folder: **Settings** offers **Update** when the installed copy is older, and shows **Installed** when it is the same or newer.
+
 ## Third-party skills we use
 
 Install and update these collections from their maintainers. A listing identifies a workflow available in our setup. Versions and client bundles change over time.

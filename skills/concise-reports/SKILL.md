@@ -1,6 +1,8 @@
 ---
 name: concise-reports
 description: Report back in the fewest words - what you did, then what you need from the user as the very last sentence. Use for every status update, progress note and final reply to the user.
+metadata:
+  version: "1.0.0"
 ---
 
 # Concise Reports

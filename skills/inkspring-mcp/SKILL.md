@@ -1,6 +1,8 @@
 ---
 name: inkspring-mcp
 description: Install and use the Inkspring MCP server, the social content and newsletter studio, from Claude Code or Codex. Use when someone wants to connect Inkspring to their agent, asks why Inkspring tools are missing, or asks to write posts or replies, work the post ideas queue, make images, schedule or unschedule posts, draft a newsletter, or use their research, vault notes or profile in Inkspring.
+metadata:
+  version: "1.0.0"
 ---
 
 # Inkspring MCP
@@ -37,11 +39,17 @@ section 3. If not, walk the user through section 2.
 ## 3. Tools
 
 - Projects and posts: `list_projects`, `write_post`, `write_reply`, `list_drafts`,
-  `get_draft`, `edit_draft`, `rewrite_with_notes`, `make_image`.
+  `get_draft`, `edit_draft`, `rewrite_with_notes`, `make_image`, `attach_image`,
+  `attach_video`.
 - Post ideas queue: `refresh_ideas`, `list_ideas`, `pick_idea`, `edit_idea`,
   `skip_idea`.
 - Scheduling: `list_schedule`, `schedule_post`, `unschedule_post`, `post_now`
-  (only works when **Let agents post right away** is on).
+  (only works when **Let agents publish X and LinkedIn posts immediately** is on).
+- Publish now: `publish_now` posts supplied text, plus an optional single image
+  (`image_path`, absolute PNG/JPEG/WebP), straight to the connected X and LinkedIn
+  accounts with no idea, draft review or schedule. Omit `platforms` to post to every
+  connected account. Pass a `request_key` so a retry never posts twice. Same setting
+  as `post_now`, and only when the author explicitly asks to publish.
 - Newsletters: `list_newsletters`, `get_newsletter`, `save_newsletter` (local drafts;
   sending needs human review in the app).
 - Context: `list_research`, `research_topics`, `get_personal_profile`,
