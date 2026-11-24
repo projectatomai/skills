@@ -1,12 +1,13 @@
 # Protomota skills
 
-[skills.protomota.com](https://skills.protomota.com) is the public address for this collection. The six skill folders below are maintained here. The reference catalog lists third-party tools separately and credits the original project for adaptations.
+[skills.protomota.com](https://skills.protomota.com) is the public address for this collection. The seven skill folders below are maintained here. The reference catalog lists third-party tools separately and credits the original project for adaptations.
 
 ## Skills you can install from this repo
 
 | Skill | What you can do with it |
 |---|---|
 | [Agent Council](skills/agent-council/SKILL.md) | Give Claude, Codex and Gemini the same decision, compare independent recommendations, then test what they agree on. Bring your own authorized model connections. |
+| [Concise Reports](skills/concise-reports/SKILL.md) | Make agents report only what they did and what they need from you, in a sentence or two. |
 | [Glimmer MCP](skills/glimmer-mcp/SKILL.md) | Read daily coaching for a dashboard and save a practice. |
 | [InkSpring MCP](skills/inkspring-mcp/SKILL.md) | Work with ideas, posts, newsletters and scheduled drafts. |
 | [Jotley MCP](skills/jotley-mcp/SKILL.md) | Find, read and organize voice notes and transcripts. |
