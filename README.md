@@ -7,7 +7,7 @@
 | Skill | What you can do with it |
 |---|---|
 | [Agent Council](skills/agent-council/SKILL.md) | Give Claude, Codex and Gemini the same decision, compare independent recommendations, then test what they agree on. Bring your own authorized model connections. |
-| [Concise Reports](skills/concise-reports/SKILL.md) | Make agents report what they did, ending with what they did, with what they need from you as the last sentence. |
+| [Concise Reports](skills/concise-reports/SKILL.md) | Make agents say only what they did, ending with exactly what they need from you. |
 | [Glimmer MCP](skills/glimmer-mcp/SKILL.md) | Read daily coaching for a dashboard and save a practice. |
 | [InkSpring MCP](skills/inkspring-mcp/SKILL.md) | Work with ideas, posts, newsletters and scheduled drafts. |
 | [Jotley MCP](skills/jotley-mcp/SKILL.md) | Find, read and organize voice notes and transcripts. |
