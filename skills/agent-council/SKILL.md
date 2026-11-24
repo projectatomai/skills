@@ -1,6 +1,6 @@
 ---
 name: agent-council
-description: Convene Claude, Codex and Gemini for independent recommendations, a challenge round and an evidence-checked decision. Use when the user requests Agent Council or a three-provider review.
+description: Convene Claude, Codex and Gemini for independent recommendations, a challenge round and an evidence-checked decision. Use when the user requests Agent Council or a three-provider review, including drafting and revising copy.
 ---
 
 # Agent Council
@@ -14,6 +14,10 @@ For each provider, use the strongest model the connected account exposes for the
 3. Record which providers actually answered and the model identifiers their runtimes report. Honor a requested model. If a connection fails, retry it once and report missing participation. When peer connections are unavailable, give the user the brief to take to those clients. Only attribute an answer to a provider that returned one.
 4. Compare the three answers, including the host's. Send both peers the same short synthesis, the proposed decision and any material disagreement. Ask each what would change the decision. If they identify a checkable claim, verify it with a primary source or a test.
 5. Deliver the recommendation, the reason, meaningful dissent and the verification result. Identify anything still uncertain. Preserve the original scope of authorization for actions such as publishing or deployment.
+
+## Writing and revision
+
+Follow the author’s voice guidance and match the audience. Keep sourced facts, personal judgments and recommendations distinct. Have the other seats challenge the draft for unsupported implications, overstatement and wording that changes the author’s meaning. A routine voice edit can use the same writing guidance without starting a Council run. Drafting or peer review does not grant publication approval.
 
 ## Try it
 
