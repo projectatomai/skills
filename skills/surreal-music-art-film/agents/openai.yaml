@@ -1,0 +1,4 @@
+interface:
+  display_name: "Surreal Music Art Film"
+  short_description: "Video references, moodboards, images and music films"
+  default_prompt: "Use $surreal-music-art-film to capture every cut from my reference video, propose a moodboard, and plan a bounded batch of new surreal scenes."

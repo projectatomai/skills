@@ -1,0 +1,4 @@
+interface:
+  display_name: "ComfyUI Video Production"
+  short_description: "Local reference-guided video creation and sync repair"
+  default_prompt: "Use $comfyui-video-production to continue my local ComfyUI video project, preserving the latest accepted edit and checking audio synchronization."

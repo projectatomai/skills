@@ -1,0 +1,4 @@
+interface:
+  display_name: "Animated Video Production"
+  short_description: "Characters, voices, scripts, storyboards and the final edit"
+  default_prompt: "Use $animated-video-production to plan a short animated story with character sheets, voice auditions, a script and a playable storyboard."

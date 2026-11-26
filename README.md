@@ -1,19 +1,44 @@
 # Protomota skills
 
-[skills.protomota.com](https://skills.protomota.com) is the public address for this collection. The eight skill folders below are maintained here. The reference catalog lists third-party tools separately and credits the original project for adaptations.
+[skills.protomota.com](https://skills.protomota.com) is the public address for this collection. The skill folders below are maintained here. The reference catalog lists third-party tools separately and credits the original project for adaptations.
 
 ## Skills you can install from this repo
 
 | Skill | What you can do with it |
 |---|---|
 | [Agent Council](skills/agent-council/SKILL.md) | Give Claude, Codex and Gemini the same decision, compare independent recommendations, then test what they agree on. Bring your own authorized model connections. |
+| [Agent Team](skills/agent-team/SKILL.md) | Say which agent leads which kind of work, and when to bring in a second opinion. |
+| [AI Founder Outreach](skills/ai-founder-outreach/SKILL.md) | Shortlist AI-first startups worth contacting, with evidence and screenshots, and draft only for the ones you pick. |
+| [AI Motion Design](skills/ai-motion-design/SKILL.md) | Turn a reference video and a message into an editable Remotion or HyperFrames video. |
+| [Animated Video Production](skills/animated-video-production/SKILL.md) | Plan and produce an animated short: characters, voices, script, a playable storyboard, then the edit. |
+| [Bitwarden Secrets](skills/bitwarden-secrets/SKILL.md) | Fetch a key from Bitwarden Secrets Manager for one command without ever showing it. |
 | [Bucksley MCP](skills/bucksley-mcp/SKILL.md) | Read balances, spending and budgets, and tidy transactions in Bucksley. |
+| [ComfyUI Video Production](skills/comfyui-video-production/SKILL.md) | Run ComfyUI video jobs, check every clip and fix audio sync. |
 | [Concise Reports](skills/concise-reports/SKILL.md) | Make agents say only what they did, ending with exactly what they need from you. |
+| [Design Direction First](skills/design-direction-first/SKILL.md) | Get a style direction and real references before designing anything. |
+| [Design Reference Review](skills/design-reference-review/SKILL.md) | Ground a UI in real references and check the rendered result against them. |
+| [Dev Tunnels](skills/dev-tunnels/SKILL.md) | Keep dev servers and reserved ngrok tunnels matched, one port per project. |
+| [Drive Organizer](skills/drive-organizer/SKILL.md) | Keep a shared media drive in order with a map, naming rules and helper scripts. |
+| [Figma Designer](skills/figma-designer/SKILL.md) | Design in Figma through the Figma MCP server. |
 | [Glimmer MCP](skills/glimmer-mcp/SKILL.md) | Read daily coaching for a dashboard and save a practice. |
+| [Grok Imagine](skills/grok-imagine/SKILL.md) | Make and edit images with xAI's Grok Imagine API. |
+| [Handoff Prompt](skills/handoff-prompt/SKILL.md) | Write a handoff for the next agent and deliver it as a file. |
+| [Imagegen 2](skills/imagegen-2/SKILL.md) | Make images with OpenAI's gpt-image-2, from text or from a reference photo. |
 | [InkSpring MCP](skills/inkspring-mcp/SKILL.md) | Work with ideas, posts, newsletters and scheduled drafts. |
 | [Jotley MCP](skills/jotley-mcp/SKILL.md) | Find, read and organize voice notes and transcripts. |
+| [LinkedIn Agent](skills/linkedin-agent/SKILL.md) | Draft, review and publish LinkedIn posts in your own voice, never without a yes. |
+| [LLM Wiki](skills/llm-wiki/SKILL.md) | Keep a wiki of linked Markdown pages that your agent builds from the sources you give it. |
+| [Market Scout](skills/market-scout/SKILL.md) | Find one product people already pay for and write a one-page sheet on the gap. |
+| [Nano Banana](skills/nano-banana/SKILL.md) | Make images with Google's Gemini image model. |
 | [OpenTalon MCP](skills/opentalon-mcp/SKILL.md) | Manage tasks through a local agent connection. |
+| [Proof](skills/proof/SKILL.md) | End a task with a screenshot or recording of the real result. |
+| [Suno Song](skills/suno-song/SKILL.md) | Write songs for Suno: five options with prompt and lyrics, nothing made until you approve. |
+| [Surreal Music Art Film](skills/surreal-music-art-film/SKILL.md) | Build a music-led art film from your own references, with moodboards, image batches and motion checks. |
 | [Textley MCP](skills/textley-mcp/SKILL.md) | Find, read, edit and save files in Textley vaults and tabs. |
+| [Upwork Proposals](skills/upwork-proposals/SKILL.md) | Screen Upwork jobs, talk through the concerns, and write only the proposals you approve. |
+| [Voice Narration](skills/voice-narration/SKILL.md) | Never splice voice audio. Re-record the whole pass. |
+| [X Post Hooks](skills/x-post-hooks/SKILL.md) | Write the opening line of an X post. |
+| [YouTube Channel System](skills/youtube-channel-system/SKILL.md) | Build and improve a YouTube channel as a system. |
 
 The Mac apps host their own MCP servers. [App connection guides](https://protomota.com/mcp).
 
@@ -54,6 +79,10 @@ Install and update these collections from their maintainers. A listing identifie
 
 | Workflow | Original or related project | What changed here |
 |---|---|---|
+| LLM Wiki | [LLM Wiki idea file](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) by Andrej Karpathy | The pattern is his. Our skill is an independent way to run it, with a schema, an inbox and two roles. |
+| Design Reference Review | A thread by Prajwal Tomar, credited in the skill | Independent write-up of a reference-first way to design and check a UI. |
+| Figma Designer | [Frontend Design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) by Anthropic (Apache-2.0) | Related design guidance. Our skill is about working in Figma through its MCP server and points to theirs for visual direction. |
+| AI Motion Design | Posts by [Rexan Wong](https://x.com/rexan_wong/status/2103707054108299437) and [Codila](https://x.com/0xCodila/status/2107119130239185232) | Independent write-up of a reference-led motion workflow for Remotion and HyperFrames. |
 | Agent Council | [ClaudeX Loop](https://github.com/chaseai-yt/claudex-loop) | Related predecessor. Our independently written skill adds a Gemini vote, a host-neutral review, a challenge round, and evidence checks. |
 | Motion Design Harness | [Mortiflix OSS](https://github.com/GTKottman/mortiflix-oss) | Local adaptation adds staged approval of briefs, style frames, transitions and animatics, plus delivery checks. |
 | HyperFrames | [HyperFrames](https://github.com/heygen-com/hyperframes) | Local install has additional intake, brief, production and review references compared with its recorded upstream revision. |
@@ -66,7 +95,6 @@ Install and update these collections from their maintainers. A listing identifie
 ## Skills supplied with connected clients and plugins
 
 - **Claude official plugins** · `frontend-design`, `playwright`, `ralph-loop`, `supabase`, `swift-lsp` · [Anthropic](https://github.com/anthropics/claude-plugins-official).
-- **Higgsfield** · `higgsfield`, `website-builder` · [Higgsfield](https://higgsfield.ai/).
 - **OpenAI system skills** · `create-statusline`, `imagegen`, `openai-docs`, `review-agent`, `skill-creator`, `skill-installer` · [OpenAI distribution](https://openai.com/codex/).
 - **documents** · `documents` · [OpenAI distribution](https://openai.com/codex/).
 - **frontend-design** · `frontend-design` · [Anthropic](https://github.com/anthropics/claude-plugins-official).
@@ -88,7 +116,7 @@ Install and update these collections from their maintainers. A listing identifie
 
 These are catalog entries only. Source, rights and public release are reviewed separately.
 
-`agent-team`, `ai-founder-outreach`, `ai-motion-design`, `animated-video-production`, `charsheet-soul`, `codex`, `comfyui-video-production`, `content-engine`, `design-direction`, `digital-product`, `figma-designer`, `grok-imagine`, `handoff-prompt`, `imagegen-2`, `jotley-instagram-slides`, `linkedin-agent`, `llm-wiki`, `market-scout`, `meanizer`, `motion-design-harness`, `n8n`, `nano-banana`, `newsletter`, `opentalon-ticket`, `proof`, `push-to-main`, `skill-maker`, `substack`, `suno-song`, `surreal-music-art-film`, `talking-head-recut`, `teardown`, `textley-mcp`, `ugc-influencer-video`, `upwork-proposals`, `viral-unhinged-video-research`, `voice-narration`, `x-post-hooks`, `youtube-channel-system`
+`charsheet-soul`, `content-engine`, `digital-product`, `meanizer`, `motion-design-harness`, `talking-head-recut`, `teardown`, `ugc-influencer-video`
 
 Private client, infrastructure, publishing and account workflows stay in our private inventory. No private memory or operating configuration is distributed here.
 
