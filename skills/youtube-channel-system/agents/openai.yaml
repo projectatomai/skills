@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Channel System"
+  short_description: "Plan, produce, grow, and monetize a YouTube channel"
+  default_prompt: "Use $youtube-channel-system to build a practical YouTube channel plan around my audience, goals, and available time."
