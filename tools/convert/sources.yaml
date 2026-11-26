@@ -1,0 +1,18 @@
+# Where converted skills come from. One entry per source repo, pinned to a commit.
+# `checkout` is the folder name of the clone under --source-root.
+# `skip` names skills that stay as links to the original, with the reason shown in converted/README.md.
+
+- repo: anthropics/skills
+  checkout: anthropics_skills
+  commit: e4bb5d960d87126ff3b3a8af1a104b7db67560ba
+  path: skills
+  maker: Anthropic
+  license: Apache-2.0
+  license_name: Apache License 2.0
+  third_party_notices: THIRD_PARTY_NOTICES.md
+  skip:
+    academy-guide: It recommends Anthropic's own courses for learning Claude, so it only makes sense inside Claude.
+    claude-api: It is a guide to Claude's own API and Claude Code's settings, where Claude-only names are the subject and must stay as written.
+    doc-coauthoring: Its folder has no licence file, so there is no clear permission to share a changed copy.
+    skill-creator: Its test and benchmark loop is built on Claude's subagents and the `claude` command, which needs a rewrite by hand and not a mechanical conversion.
+    web-artifacts-builder: It builds artifacts for claude.ai, a Claude-only feature.
