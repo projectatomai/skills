@@ -33,6 +33,10 @@ Use the skill discovery directory supported by your client. If a destination alr
 
 Each skill records its version as `metadata.version` in the `SKILL.md` front matter. Raise it whenever the skill changes. The Protomota Mac apps bundle their skill and compare this version with the copy in each agent's skill folder: **Settings** offers **Update** when the installed copy is older, and shows **Installed** when it is the same or newer.
 
+## Converted skills
+
+[`converted/`](converted) holds skills written for one agent that [Skillfarm](https://skillfarm.ai) has converted to read the same in Claude Code, Codex CLI and Gemini CLI. Each is a modified copy of someone else's work, used under its licence, with a NOTICE.md that links to the original and lists every change. The converter is in [`tools/convert`](tools/convert).
+
 ## Third-party skills we use
 
 Install and update these collections from their maintainers. A listing identifies a workflow available in our setup. Versions and client bundles change over time.
