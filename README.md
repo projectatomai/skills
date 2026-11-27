@@ -11,6 +11,7 @@
 | [AI Founder Outreach](skills/ai-founder-outreach/SKILL.md) | Shortlist AI-first startups worth contacting, with evidence and screenshots, and draft only for the ones you pick. |
 | [AI Motion Design](skills/ai-motion-design/SKILL.md) | Turn a reference video and a message into an editable Remotion or HyperFrames video. |
 | [Animated Video Production](skills/animated-video-production/SKILL.md) | Plan and produce an animated short: characters, voices, script, a playable storyboard, then the edit. |
+| [App Factory](skills/app-factory/SKILL.md) | Take a new Mac + iPhone app from idea to a live, listed product: name, design, scaffold, site, domains, SEO and AI search, TestFlight and a signed Mac build with auto-update. |
 | [Bitwarden Secrets](skills/bitwarden-secrets/SKILL.md) | Fetch a key from Bitwarden Secrets Manager for one command without ever showing it. |
 | [Bucksley MCP](skills/bucksley-mcp/SKILL.md) | Read balances, spending and budgets, and tidy transactions in Bucksley. |
 | [ComfyUI Video Production](skills/comfyui-video-production/SKILL.md) | Run ComfyUI video jobs, check every clip and fix audio sync. |
