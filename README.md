@@ -122,4 +122,4 @@ Private client, infrastructure, publishing and account workflows stay in our pri
 
 ## License
 
-Protomota’s published files are available under the [MIT license](LICENSE). Each linked project retains its own license.
+The published files here are public domain under [The Unlicense](LICENSE). Each linked project retains its own license.
